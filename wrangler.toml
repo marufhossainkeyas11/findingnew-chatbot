@@ -1,0 +1,22 @@
+name = "findingnew-chatbot"
+main = "src/index.js"
+compatibility_date = "2024-10-01"
+
+[vars]
+GRAPH_VERSION = "v21.0"
+WA_COEXISTENCE = "0"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "findingnew_db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+# Secrets to set via `wrangler secret put <NAME>`:
+# - WA_TOKEN
+# - WA_PHONE_NUMBER_ID
+# - FB_PAGE_TOKEN
+# - VERIFY_TOKEN
+# - META_APP_SECRET
+# - ADMIN_KEY
+# - TELEGRAM_BOT_TOKEN (optional)
+# - TELEGRAM_CHAT_ID (optional)
